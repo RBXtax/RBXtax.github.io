@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RBXtax</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/rbxg.png">
+    <script src="scripts.js"></script>
+</head>
+<body onload="setDefault('before')">
+    <header>
+        <img src="images/logo.png" alt="RBXTax" class="logoimg">
+        <a href="index.html"><h1 class="logo"><span class="rbx">RBX</span><span class="tax">Tax</span></h1></a>
+        <h2>Tax Calculator</h2>
+    </header>
+    <main>
+        <div class="column">
+            <section class="calc-container">
+                <span class="calculate">Calculate:</span>
+                <ul>
+                    <li onclick="changeCalc('before')" id="before" class="options">Robux before tax</li><!--
+                    --><li onclick="changeCalc('after')" id="after" class="options">Robux after tax</li>
+                </ul>
+                <div class="input-container">
+                    <img src="images/rbx.png" alt="RBX" class="rbxinputimg" id="rbxsign">
+                    <input type="text" placeholder="Enter amount" onkeyup="updateValue()" id="value" maxlength="15" onclick="rotaterbx()">
+                </div>
+                <div class="output">
+                    <p id="subtext"></p>
+                    <p id="calculated-amount"></p>
+                </div>
+            </section>
+            <a style="color: white" href="https://www.roblox.com/users/23334949/profile"><section class="subtiles tile1">Follow <span class="highlighted">3zng</span> to stay updated
+            </section></a><!--
+            --><section class="subtiles tile2">
+                Become <span class="highlighted">part</span> of the community
+            </section>
+        </div>
+    </main>
+    <footer>
+        <p class="footerlogo logo"><span class="rbx">RBX</span><span class="tax">Tax</span></p>
+        <p class="footertext">A website by <a class="profilelink" href="https://www.roblox.com/users/23334949/profile">3zng</a></p>
+        <p class="footertext">©2023</p>
+    </footer>
+</body>
+</html>
