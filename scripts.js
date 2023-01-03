@@ -37,7 +37,7 @@ function setDefault(option) {
     var element = document.getElementById(option);
     element.style.backgroundColor = '#29973f';
     var input = document.getElementById('value');
-    input.placeholder = 'Amount ' + option + ' tax'
+    input.placeholder = 'Robux ' + option + ' tax'
 
     var subtext = document.getElementById('subtext')
     subtext.innerText = 'You would get:'
@@ -54,7 +54,7 @@ function changeCalc(option) {
     element.style.backgroundColor = '#29973f'
 
     var input = document.getElementById('value');
-    input.placeholder = 'Amount ' + option + ' tax'
+    input.placeholder = 'Robux ' + option + ' tax'
 
     var subtext = document.getElementById('subtext')
     if (option == 'before') {
