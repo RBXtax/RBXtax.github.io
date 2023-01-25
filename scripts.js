@@ -78,3 +78,4 @@ function rotaterbx() {
     }
     element.animate(spin, timing)
 }
+
