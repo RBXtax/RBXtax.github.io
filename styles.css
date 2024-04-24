@@ -728,7 +728,7 @@ footer {
     border-radius: 5px;
     box-shadow: rgb(27, 27, 27) 0px 2px 20px 1px;
     height:700px;
-    background-image: url(images/banner.jpg);
+    background-image: url("images/banner.jpg");
     background-position: center;
     background-size: 1200px;
     position: absolute;
