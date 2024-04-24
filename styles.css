@@ -52,10 +52,15 @@ hr {
 }
 
 main {
+    position: relative;
     text-align: center;
     flex-grow: 1;
-    animation: forwards 1s ease fade
 }
+
+.load {
+    animation: forwards 1s ease fade;
+}
+
 
 @keyframes fade {
     0% {opacity: 0;
@@ -263,14 +268,35 @@ footer {
     filter: grayscale(100%);
 }
 
+@media screen and (max-width: 1500px) {
+    .column {width: 60%}
+    .ad-banner {
+        width: 12% !important;
+        font-size: 30px !important;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .column {width: 60%}
+    .ad-banner {
+        width: 12% !important;
+        font-size: 26px !important;
+    }
+}
+
 @media screen and (max-width: 1034px) {
+
+    .calc-container {
+        margin-top: 40px;
+    }
     .column {
-        width: 80%;
+        width: 70%;
     }
     .subtiles {
         width: 48.5%;
         font-size: 43px;
         padding-right: 140px;
+        margin-top: 20px;
     }
 
     #calculated-amount {
@@ -681,5 +707,95 @@ footer {
     .devex-column .calc-container {
         min-height: 800px;
         height: auto
+    }
+}
+
+.top-ad-banner {
+    position: sticky;
+    background-color: #29973f;
+    top: 0;
+    z-index: 1;
+}
+
+.top-ad-banner-link {color: white}
+.top-ad-banner-link:hover {
+    text-decoration: underline;
+}
+
+.ad-banner {
+    width: 220px;
+    top: 125px;
+    border-radius: 5px;
+    box-shadow: rgb(27, 27, 27) 0px 2px 20px 1px;
+    height:700px;
+    background-image: url(images/banner.jpg);
+    background-position: center;
+    background-size: 1200px;
+    position: absolute;
+    transition: color 0.3s ease;
+    color: rgb(185, 185, 185);
+    font-size: 40px;
+    text-align: left;
+    padding: 20px;
+    font-weight: 600;
+}
+
+.right-banner {
+    right: 20px;
+}
+.left-banner {
+    left: 20px;
+    animation: shake 10s forwards infinite 1s;
+}
+
+@keyframes shake {
+    0% {transform: rotate(0);}
+    3% {transform: rotate(1deg);}
+    6% {transform: rotate(-1deg);}
+    10% {transform: rotate(0deg);}
+    100% {transform: rotate(0deg);}
+}
+
+
+
+
+
+.ad-banner:hover {
+    cursor: pointer;
+    color: white
+}
+
+@media screen and (max-width: 1034px) {
+    .left-banner {
+        width: 90% !important;
+        padding: 10px;
+        font-size: 35px !important;
+        position: relative;
+        height: 100px;
+        top: 20px;
+        margin: 0 auto;
+        left: 0 !important;
+    }
+    .right-banner {
+        width: 90% !important;
+        padding: 10px;
+        font-size: 35px !important;
+        position: relative;
+        height: 100px;
+        top: 0;
+        margin: 20px auto 0;
+        left: 0;
+    }
+    .banner-wide {
+        display:none;
+    }
+    .anchor-ad {
+        position: relative;
+    }
+}
+
+@media screen and (max-width: 610px) {
+    .ad-banner {
+        font-size: 24px !important;
     }
 }
