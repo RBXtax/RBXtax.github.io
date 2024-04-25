@@ -75,7 +75,6 @@ h2 {
     margin: 0;
     font-size: 14px;
     color: rgba(255, 255, 255, 0.548);
-    font-family: 'Poppins';
     font-weight: 200;
 }
 
@@ -116,7 +115,6 @@ input {
     width: 200px;
     border: none;
     padding: 0 40px;
-    font-family: 'Poppins';
     font-size: 16px;
     text-align: center;
     margin: 50px 0;
@@ -573,7 +571,7 @@ footer {
     border-bottom: 2px solid rgb(43, 177, 255);
 }
 
-@media screen and (max-width:550px){
+@media screen and (max-width:580px){
     .header-pages li {
         font-size: 16px;
         margin: 30px 0 0 20px;
@@ -600,7 +598,7 @@ footer {
     }
 }
 
-@media screen and (max-width: 435px) {
+@media screen and (max-width: 460px) {
     .logoimg {
         position: relative;
         left: 0;
@@ -683,6 +681,14 @@ footer {
     }
     .devex-column .calc-container {
         height: 700px
+    }
+    header .discord-anchor {
+        position: absolute;
+        right: 0;
+        height: 50px !important;
+    }
+    header .discord {
+        display: inline-block;
     }
 }
 
@@ -815,4 +821,18 @@ header .discord {
 
 header {
     padding-right: 0;
+}
+
+@media screen and (max-width: 630px) {
+    header .discord {
+        width: 30px;
+        height: 30px;
+        background-size: 30px;
+        position: absolute;
+        right: 10px;
+        top: 25px;
+    }
+    header .discord-anchor {
+        margin: 0;
+    }
 }
