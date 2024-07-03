@@ -23,9 +23,10 @@
     <link rel="icon" href="images/logo.ico">
     <meta name="description" content="Calculate how much Robux you will receive after tax">
     <script src="tax.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 </head>
 
-<body onload="setDefault('before')">
+<body>
     <header>
         <a href="index.html">
         <img src="images\logo.png" alt="" class="logoimg">
@@ -48,11 +49,17 @@
         </div>
         <article class="load">
         <div class="column tax-column">
-            <a href="https://discord.gg/QstJktzNWV" class="anchor-ad">
-                <div class="left-banner ad-banner">
-                    Want to advertise to our thousands of users?
+
+            <a href="#" class="anchor-ad left-tax-banner-link">
+                <div class="left-banner ad-banner left-tax-banner" id="left-tax-banner-v">
                 </div>
             </a>
+
+            <a href="#" class="anchor-ad left-tax-banner-link">
+                <div class="left-banner ad-banner left-banner-horizontal left-tax-banner" id="left-tax-banner-h">
+                </div>
+            </a>
+
             <section class="calc-container">
                 <h1>Robux Tax Calculator</h1>
                 <ul class="button-container">
@@ -98,9 +105,14 @@
                     <p id="calculated-amount"></p>
                 </div>
             </section>
-            <a href="https://discord.gg/QstJktzNWV" class="anchor-ad">
-                <div class="right-banner ad-banner">
-                    Ad space available
+
+            <a href="#" class="anchor-ad right-tax-banner-link">
+                <div class="right-banner ad-banner right-tax-banner" id="right-tax-banner-v">
+                </div>
+            </a>
+
+            <a href="#" class="anchor-ad right-tax-banner-link">
+                <div class="right-banner ad-banner right-banner-horizontal right-tax-banner" id="right-tax-banner-h">
                 </div>
             </a>
 

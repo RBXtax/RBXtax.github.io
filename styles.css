@@ -282,7 +282,7 @@ footer {
     }
 }
 
-@media screen and (max-width: 1034px) {
+@media screen and (max-width: 1200px) {
 
     .calc-container {
         margin-top: 40px;
@@ -731,12 +731,11 @@ footer {
 .ad-banner {
     width: 220px;
     top: 125px;
-    border-radius: 5px;
-    box-shadow: rgb(27, 27, 27) 0px 2px 20px 1px;
     height:700px;
-    background-image: url("images/banner.jpg");
     background-position: center;
-    background-size: 1200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.1) !important;
     position: absolute;
     transition: color 0.3s ease;
     color: rgb(185, 185, 185);
@@ -771,29 +770,48 @@ footer {
     color: white
 }
 
-@media screen and (max-width: 1034px) {
+.left-banner-horizontal {
+    display: none;
+    width: 90% !important;
+    padding: 10px;
+    position: relative;
+    height: 100px;
+    top: 20px;
+    margin: 0 auto;
+    left: 0 !important;
+}
+
+.right-banner-horizontal {
+    display: none;
+    width: 90% !important;
+    padding: 10px;
+    position: relative;
+    height: 100px;
+    top: 20px;
+    margin: 0 auto;
+    left: 0 !important;
+}
+
+
+@media screen and (max-width: 1200px) {
     .left-banner {
-        width: 90% !important;
-        padding: 10px;
-        font-size: 35px !important;
-        position: relative;
-        height: 100px;
-        top: 20px;
-        margin: 0 auto;
-        left: 0 !important;
+        display:none 
     }
     .right-banner {
-        width: 90% !important;
-        padding: 10px;
-        font-size: 35px !important;
-        position: relative;
-        height: 100px;
-        top: 0;
-        margin: 20px auto 0;
-        left: 0;
+        display:none
     }
+    .left-banner-horizontal {
+        display:inline-block
+    }
+    .right-banner-horizontal {
+        display: inline-block;
+    }
+
     .anchor-ad {
         position: relative;
+    }
+    .subtile-container {
+        margin-top: 10px;
     }
 }
 

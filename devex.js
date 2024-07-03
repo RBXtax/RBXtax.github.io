@@ -1,3 +1,17 @@
+// add ad links between the quotation marks 
+// e.g. 
+// var left_url = 'https://www.google.com'
+// to set the left banner as an ad that points to google
+var left_url = ''
+var right_url = ''
+
+
+
+
+
+
+
+
 function rotaterbx() {
     element = document.getElementById('rbxsign');
     const spin = [
@@ -32,4 +46,47 @@ function updateValue() {
 
 function format(x) {
     return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+}
+
+
+function loadbanners() {
+    left_v = document.getElementById('left-devex-banner-v');
+    left_v.style.backgroundImage = "url('vertical_banners/devex/left.png')";
+    left_h = document.getElementById('left-devex-banner-h');
+    left_h.style.backgroundImage = "url('horizontal_banners/devex/left.png')";
+
+    right_v = document.getElementById('right-devex-banner-v')
+    right_v.style.backgroundImage = "url('vertical_banners/devex/right.png')";
+    right_h = document.getElementById('right-devex-banner-h')
+    right_h.style.backgroundImage = "url('horizontal_banners/devex/right.png')";
+
+    leftlink = document.querySelectorAll('.left-devex-banner-link')
+    rightlink = document.querySelectorAll('.right-devex-banner-link')
+
+
+    if (left_url == '') {
+        for (var i = 0; i<leftlink.length; i++) {
+            leftlink[i].style.display = 'none'
+        }
+    } else {
+        for (var i = 0; i<leftlink.length; i++) {
+            leftlink[i].href = left_url
+        }
+    }
+
+    if (right_url == '') {
+        for (var i = 0; i<rightlink.length; i++) {
+            rightlink[i].style.display = 'none'
+        }
+    } else {
+        for (var i = 0; i<rightlink.length; i++) {
+            rightlink[i].href = right_url
+        }
+    }
+
+
+}
+
+window.onload = function() {
+    loadbanners()
 }
