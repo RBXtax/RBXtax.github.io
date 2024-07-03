@@ -1,9 +1,24 @@
-// add ad links between the quotation marks 
-// e.g. 
-// var left_url = 'https://www.google.com'
-// to set the left banner as an ad that points to google
-var left_url = ''
-var right_url = ''
+// add the URLs as comma separated and in quotation marks
+// the num values below must match the number of URLS in each array (e.g. 0 when empty)
+
+
+// CHANGE THIS ONLY
+
+var left_url = [
+
+]
+var right_url = [
+
+]
+var num_left_banners = 0
+var num_right_banners = 0
+
+// CHANGE THIS ONLY
+
+
+
+
+
 
 
 
@@ -93,47 +108,57 @@ function rotaterbx() {
     element.animate(spin, timing)
 }
 
-function loadbanners() {
-    left_v = document.getElementById('left-tax-banner-v');
-    left_v.style.backgroundImage = "url('vertical_banners/tax/left.png')";
-    left_h = document.getElementById('left-tax-banner-h');
-    left_h.style.backgroundImage = "url('horizontal_banners/tax/left.png')";
-
-    right_v = document.getElementById('right-tax-banner-v')
-    right_v.style.backgroundImage = "url('vertical_banners/tax/right.png')";
-    right_h = document.getElementById('right-tax-banner-h')
-    right_h.style.backgroundImage = "url('horizontal_banners/tax/right.png')";
-
+function changeBanner(i, j) {
     leftlink = document.querySelectorAll('.left-tax-banner-link')
     rightlink = document.querySelectorAll('.right-tax-banner-link')
 
+    if (num_left_banners != 0) {
+        if (i > num_left_banners) {i=1}
+        left_v = document.getElementById('left-tax-banner-v');
+        left_v.style.backgroundImage = "url('vertical_banners/tax/left/"+i+".png')";
+        left_h = document.getElementById('left-tax-banner-h');
+        left_h.style.backgroundImage = "url('horizontal_banners/tax/left/"+i+".png')";
 
-    if (left_url == '') {
-        for (var i = 0; i<leftlink.length; i++) {
-            leftlink[i].style.display = 'none'
+        
+
+        
+        for (var k = 0; k<leftlink.length; k++) {
+            leftlink[k].href = left_url[i-1]
         }
     } else {
-        for (var i = 0; i<leftlink.length; i++) {
-            leftlink[i].href = left_url
+        for (var k = 0; k<leftlink.length; k++) {
+            leftlink[k].style.display = 'none'
         }
     }
 
-    if (right_url == '') {
-        for (var i = 0; i<rightlink.length; i++) {
-            rightlink[i].style.display = 'none'
+    if (num_right_banners != 0) {
+        if (j > num_right_banners) {j=1}
+        right_v = document.getElementById('right-tax-banner-v')
+        right_v.style.backgroundImage = "url('vertical_banners/tax/right/"+j+".png')";
+        right_h = document.getElementById('right-tax-banner-h')
+        right_h.style.backgroundImage = "url('horizontal_banners/tax/right/"+j+".png')";
+        
+        
+
+        for (var k = 0; k<rightlink.length; k++) {
+            rightlink[k].href = right_url[j-1]
         }
     } else {
-        for (var i = 0; i<rightlink.length; i++) {
-            rightlink[i].href = right_url
+        for (var k = 0; k<rightlink.length; k++) {
+            rightlink[k].style.display = 'none'
         }
     }
+    
 
-
+    setTimeout(function() {changeBanner(++i, ++j)}, 10000);
 }
 
 
 
 window.onload = function() {
     setDefault("before")
+    var i = Math.floor(Math.random() * num_left_banners)+1;
+    var j = Math.floor(Math.random() * num_right_banners)+1;
+    changeBanner(i, j)
     loadbanners()
 }
