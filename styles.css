@@ -746,6 +746,7 @@ footer {
 
 .right-banner {
     right: 20px;
+    animation: shake 10s forwards infinite 1s;
 }
 .left-banner {
     left: 20px;
