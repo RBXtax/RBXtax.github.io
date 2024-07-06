@@ -5,6 +5,7 @@
 // CHANGE THIS ONLY
 
 var left_url = [
+    'https://www.roblox.com/groups/32895426/swai#!/about',
 ]
 var right_url = [
 ]
