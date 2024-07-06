@@ -9,11 +9,12 @@ var left_url = [
     
 
 ]
-var right_url = [
+var right_url = 
+    'https://www.roblox.com/groups/32895426/swai#!/about',
 
 ]
 var num_left_banners = 1
-var num_right_banners = 0
+var num_right_banners = 1
 
 // CHANGE THIS ONLY
 
