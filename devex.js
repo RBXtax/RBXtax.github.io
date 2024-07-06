@@ -5,17 +5,11 @@
 // CHANGE THIS ONLY
 
 var left_url = [
-    "https://www.google.com",
-    "https://www.google.com",
-    "https://www.google.com",
 ]
 var right_url = [
-    "https://www.google.com",
-    "https://www.google.com",
-    "https://www.google.com",
 ]
-var num_left_banners = 3
-var num_right_banners = 3
+var num_left_banners = 0
+var num_right_banners = 0
 
 // CHANGE THIS ONLY
 
