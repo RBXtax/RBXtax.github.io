@@ -9,7 +9,7 @@ var left_url = [
 ]
 var right_url = [
 ]
-var num_left_banners = 0
+var num_left_banners = 1
 var num_right_banners = 0
 
 // CHANGE THIS ONLY
