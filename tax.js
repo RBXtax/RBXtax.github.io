@@ -9,7 +9,7 @@ var left_url = [
     
 
 ]
-var right_url = 
+var right_url = [
     'https://www.roblox.com/groups/32895426/swai#!/about',
 
 ]
