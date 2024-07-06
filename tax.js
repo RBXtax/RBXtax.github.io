@@ -5,12 +5,14 @@
 // CHANGE THIS ONLY
 
 var left_url = [
+    'https://www.roblox.com/games/17600692486/EMO-OUTFIT-INSPO-R6',
+    
 
 ]
 var right_url = [
 
 ]
-var num_left_banners = 0
+var num_left_banners = 1
 var num_right_banners = 0
 
 // CHANGE THIS ONLY
