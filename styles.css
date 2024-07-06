@@ -735,7 +735,6 @@ footer {
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    background-color: rgba(0, 0, 0, 0.1) !important;
     position: absolute;
     transition: color 0.3s ease;
     color: rgb(185, 185, 185);
