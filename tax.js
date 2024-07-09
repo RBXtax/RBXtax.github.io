@@ -5,12 +5,12 @@
 // CHANGE THIS ONLY
 
 var left_url = [
-    'https://www.roblox.com/games/17600692486/EMO-OUTFIT-INSPO-R6',
+    'https://go.click.ly/VRpby',
     
 
 ]
 var right_url = [
-    'https://www.roblox.com/groups/32895426/swai#!/about',
+    'https://go.click.ly/SiiKm',
 
 ]
 var num_left_banners = 1
