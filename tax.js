@@ -6,12 +6,9 @@
 
 var left_url = [
     'https://go.click.ly/VRpby',
-    
-
 ]
 var right_url = [
     'https://go.click.ly/SiiKm',
-
 ]
 var num_left_banners = 1
 var num_right_banners = 1
