@@ -5,10 +5,10 @@
 // CHANGE THIS ONLY
 
 var left_url = [
-    'https://go.click.ly/VRpby',
+    'https://go.click.ly/IzDcJ',
 ]
 var right_url = [
-    'https://go.click.ly/IzDcJ',
+    'https://go.click.ly/SiiKm',
 ]
 var num_left_banners = 1
 var num_right_banners = 1
