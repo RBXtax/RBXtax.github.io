@@ -6,11 +6,12 @@
 
 var left_url = [
     'https://go.click.ly/IzDcJ',
+    'https://www.roblox.com/catalog?Category=4&Subcategory=66&CreatorName=hatedjulie&salesTypeFilter=1&SortType=2&SortAggregation=3',
 ]
 var right_url = [
     'https://go.click.ly/SiiKm',
 ]
-var num_left_banners = 1
+var num_left_banners = 2
 var num_right_banners = 1
 
 // CHANGE THIS ONLY
