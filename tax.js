@@ -6,7 +6,7 @@
 
 var left_url = [
     'https://go.click.ly/IzDcJ',
-    'https://www.roblox.com/catalog?Category=4&Subcategory=66&CreatorName=hatedjulie&salesTypeFilter=1&SortType=2&SortAggregation=3',
+    'https://go.click.ly/ojQYG',
 ]
 var right_url = [
     'https://go.click.ly/SiiKm',
