@@ -6,12 +6,13 @@
 
 var left_url = [
     'https://go.click.ly/SiiKm',
+    'https://discord.gg/kloonservices',
 ]
 var right_url = [
     'https://go.click.ly/IzDcJ',
     'https://go.click.ly/ojQYG',
 ]
-var num_left_banners = 1
+var num_left_banners = 2
 var num_right_banners = 2
 
 // CHANGE THIS ONLY
