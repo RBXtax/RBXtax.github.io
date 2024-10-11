@@ -9,7 +9,7 @@ var left_url = [
     'https://discord.gg/kloonservices',
 ]
 var right_url = [
-    'https://go.click.ly/IzDcJ',
+    'https://gemsloot.com/?aff=RbxTax',
     'https://go.click.ly/ojQYG',
 ]
 var num_left_banners = 2
