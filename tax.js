@@ -5,7 +5,7 @@
 // CHANGE THIS ONLY
 
 var left_url = [
-    'https://go.click.ly/IzDcJ',
+    'https://gemsloot.com/?aff=RbxTax',
     'https://go.click.ly/ojQYG',
 ]
 var right_url = [
