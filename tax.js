@@ -6,7 +6,7 @@
 
 var left_url = [
     'https://gemsloot.com/?aff=RbxTax',
-    'https://go.click.ly/ojQYG',
+    'https://discord.gg/gz957GXktT',
 ]
 var right_url = [
     'https://go.click.ly/SiiKm',
