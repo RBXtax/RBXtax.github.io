@@ -7,12 +7,13 @@
 var left_url = [
     'https://t.ly/LsYHD',
     'https://discord.gg/kloonservices',
+    'https://discord.gg/dhgate',
 ]
 var right_url = [
     'https://gemsloot.com/?aff=RbxTax',
     'https://discord.gg/gz957GXktT',
 ]
-var num_left_banners = 2
+var num_left_banners = 3
 var num_right_banners = 2
 
 // CHANGE THIS ONLY
