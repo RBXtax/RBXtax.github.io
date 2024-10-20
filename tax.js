@@ -11,9 +11,10 @@ var left_url = [
 var right_url = [
     'https://t.ly/LsYHD',
     'https://discord.gg/kloonservices',
+    'https://discord.gg/dhgate',
 ]
 var num_left_banners = 2
-var num_right_banners = 2
+var num_right_banners = 3
 
 // CHANGE THIS ONLY
 
