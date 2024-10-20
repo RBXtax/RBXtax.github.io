@@ -9,7 +9,7 @@ var left_url = [
     'https://discord.gg/gz957GXktT',
 ]
 var right_url = [
-    'https://go.click.ly/SiiKm',
+    'https://t.ly/LsYHD',
     'https://discord.gg/kloonservices',
 ]
 var num_left_banners = 2
