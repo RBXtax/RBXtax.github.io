@@ -12,9 +12,10 @@ var left_url = [
 var right_url = [
     'https://gemsloot.com/?aff=RbxTax',
     'https://discord.gg/gz957GXktT',
+    'https://t.ly/rHrX6',
 ]
 var num_left_banners = 3
-var num_right_banners = 2
+var num_right_banners = 3
 
 // CHANGE THIS ONLY
 
