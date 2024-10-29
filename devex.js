@@ -5,7 +5,7 @@
 // CHANGE THIS ONLY
 
 var left_url = [
-    'https://t.ly/LsYHD',
+    'https://2ly.link/20csr',
     'https://discord.gg/kloonservices',
     'https://discord.gg/dhgate',
 ]
