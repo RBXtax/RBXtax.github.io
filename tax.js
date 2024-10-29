@@ -10,7 +10,7 @@ var left_url = [
     'https://t.ly/rHrX6',
 ]
 var right_url = [
-    'https://t.ly/LsYHD',
+    'https://2ly.link/20csr',
     'https://discord.gg/kloonservices',
     'https://discord.gg/dhgate',
 ]
