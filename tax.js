@@ -7,7 +7,7 @@
 var left_url = [
     'https://gemsloot.com/?aff=RbxTax',
     'https://discord.gg/gz957GXktT',
-    'https://t.ly/rHrX6',
+    'https://2ly.link/20csv',
 ]
 var right_url = [
     'https://2ly.link/20csr',
