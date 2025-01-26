@@ -5,14 +5,12 @@
 // CHANGE THIS ONLY
 
 var left_url = [
-    'https://gemsloot.com/?aff=RbxTax',
-    'https://discord.gg/gz957GXktT',
-    'https://2ly.link/20csv',
+    '',
+
 ]
 var right_url = [
-    'https://2ly.link/20csr',
-    'https://discord.gg/kloonservices',
-    'https://discord.gg/dhgate',
+    '',
+
 ]
 var num_left_banners = 3
 var num_right_banners = 3
