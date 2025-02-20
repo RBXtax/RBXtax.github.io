@@ -11,8 +11,8 @@ var right_url = [
     '',
 
 ]
-var num_left_banners = 3
-var num_right_banners = 3
+var num_left_banners = 1
+var num_right_banners = 1
 
 // CHANGE THIS ONLY
 
