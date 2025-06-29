@@ -5,10 +5,10 @@
 // CHANGE THIS ONLY
 
 var left_url = [
-    'https://2ly.link/24ON9',
+    'https://www.kloonboosts.com/',
 ]
 var right_url = [
-    'https://2ly.link/24ON9',
+    'https://www.kloonboosts.com/',
 
 ]
 var num_left_banners = 1
