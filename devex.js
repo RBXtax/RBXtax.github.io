@@ -51,7 +51,7 @@ function updateValue() {
 
     var regex = /^[0-9]+$/;
     if (input.value.match(regex)) {
-        output.innerHTML = "<span class='dollar-sign'>$</span>"+format((105/30000 * input.value).toFixed(2))
+        output.innerHTML = "<span class='dollar-sign'>$</span>"+format((38/10000 * input.value).toFixed(2))
         
     }else if (input.value == '') {
         output.innerText = ''
@@ -117,3 +117,4 @@ window.onload = function() {
     var j = Math.floor(Math.random() * num_right_banners)+1;
     changeBanner(i, j)
 }
+
