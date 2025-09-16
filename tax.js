@@ -5,7 +5,7 @@
 // CHANGE THIS ONLY
 
 var left_url = [
-    'https://bloxdrop.com/',
+    'https://ishortn.ink/rLYX6sTb7',
 
 ]
 var right_url = [
@@ -164,4 +164,5 @@ window.onload = function() {
     changeBanner(i, j)
     loadbanners()
 }
+
 
