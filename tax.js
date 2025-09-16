@@ -5,7 +5,7 @@
 // CHANGE THIS ONLY
 
 var left_url = [
-    'https://www.kloonboosts.com/',
+    'https://bloxdrop.com/',
 
 ]
 var right_url = [
@@ -164,3 +164,4 @@ window.onload = function() {
     changeBanner(i, j)
     loadbanners()
 }
+
