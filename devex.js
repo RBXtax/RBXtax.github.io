@@ -8,7 +8,7 @@ var left_url = [
     'https://www.kloonboosts.com/',
 ]
 var right_url = [
-    'https://www.kloonboosts.com/',
+    'https://bloxdrop.com/',
 
 ]
 var num_left_banners = 1
@@ -117,4 +117,5 @@ window.onload = function() {
     var j = Math.floor(Math.random() * num_right_banners)+1;
     changeBanner(i, j)
 }
+
 
