@@ -6,7 +6,7 @@
 
 var left_url = [
     'https://rorush.com/welcome?r=rbxtaxb',
-    'https://rorush.com/welcome?r=rbxtaxb',
+    'https://rorush.com/welcome?r=rbxtaxm',
 
 ]
 var right_url = [
@@ -166,6 +166,7 @@ window.onload = function() {
     changeBanner(i, j)
     loadbanners()
 }
+
 
 
 
