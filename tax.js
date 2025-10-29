@@ -6,12 +6,12 @@
 
 var left_url = [
     'https://rorush.com/welcome?r=rbxtaxb',
-    '',
+    'https://rorush.com/welcome?r=rbxtaxb',
 
 ]
 var right_url = [
     'https://rorush.com/welcome?r=rbxtaxa',
-    '',
+    'https://bloxdrop.com/',
 
 ]
 var num_left_banners = 2
@@ -166,6 +166,7 @@ window.onload = function() {
     changeBanner(i, j)
     loadbanners()
 }
+
 
 
 
