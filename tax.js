@@ -9,7 +9,7 @@ var left_url = [
 
 ]
 var right_url = [
-    'https://www.kloonboosts.com/',
+    'https://rorush.com/welcome?r=rbxtaxa',
 
 ]
 var num_left_banners = 1
@@ -164,6 +164,7 @@ window.onload = function() {
     changeBanner(i, j)
     loadbanners()
 }
+
 
 
 
