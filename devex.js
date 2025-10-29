@@ -5,14 +5,16 @@
 // CHANGE THIS ONLY
 
 var left_url = [
-    'https://www.kloonboosts.com/',
+    'https://rorush.com/welcome?r=rbxtaxb',
+    '',
 ]
 var right_url = [
-    'https://bloxdrop.com/',
+    'https://rorush.com/welcome?r=rbxtaxa',
+    '',
 
 ]
-var num_left_banners = 1
-var num_right_banners = 1
+var num_left_banners = 2
+var num_right_banners = 2
 
 // CHANGE THIS ONLY
 
@@ -117,6 +119,7 @@ window.onload = function() {
     var j = Math.floor(Math.random() * num_right_banners)+1;
     changeBanner(i, j)
 }
+
 
 
 
