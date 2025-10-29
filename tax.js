@@ -6,14 +6,16 @@
 
 var left_url = [
     'https://rorush.com/welcome?r=rbxtaxb',
+    '',
 
 ]
 var right_url = [
     'https://rorush.com/welcome?r=rbxtaxa',
+    '',
 
 ]
-var num_left_banners = 1
-var num_right_banners = 1
+var num_left_banners = 2
+var num_right_banners = 2
 
 // CHANGE THIS ONLY
 
@@ -164,6 +166,7 @@ window.onload = function() {
     changeBanner(i, j)
     loadbanners()
 }
+
 
 
 
