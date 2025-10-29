@@ -5,7 +5,7 @@
 // CHANGE THIS ONLY
 
 var left_url = [
-    'https://bloxdrop.com/',
+    'https://rorush.com/welcome?r=rbxtaxb',
 
 ]
 var right_url = [
@@ -164,6 +164,7 @@ window.onload = function() {
     changeBanner(i, j)
     loadbanners()
 }
+
 
 
 
