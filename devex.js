@@ -7,14 +7,16 @@
 var left_url = [
     'https://rorush.com/welcome?r=rbxtaxb',
     'https://rorush.com/welcome?r=rbxtaxm',
+    'https://www.roblox.com/communities/55223267/kawaw#!/about'
 ]
 var right_url = [
     'https://rorush.com/welcome?r=rbxtaxa',
     'https://bloxdrop.com/',
+    'https://www.roblox.com/communities/55223267/kawaw#!/about',
 
 ]
-var num_left_banners = 2
-var num_right_banners = 2
+var num_left_banners = 3
+var num_right_banners = 3
 
 // CHANGE THIS ONLY
 
@@ -119,6 +121,7 @@ window.onload = function() {
     var j = Math.floor(Math.random() * num_right_banners)+1;
     changeBanner(i, j)
 }
+
 
 
 
