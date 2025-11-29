@@ -11,7 +11,7 @@ var left_url = [
 
 ]
 var right_url = [
-    'https://rorush.com/welcome?r=rbxtaxa',
+    'https://rorush.com/welcome/?r=rbxtaxr1',
     'https://bloxdrop.com/',
     'https://www.roblox.com/communities/55223267/kawaw#!/about',
 
@@ -168,6 +168,7 @@ window.onload = function() {
     changeBanner(i, j)
     loadbanners()
 }
+
 
 
 
