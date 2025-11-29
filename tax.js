@@ -5,7 +5,7 @@
 // CHANGE THIS ONLY
 
 var left_url = [
-    'https://rorush.com/welcome?r=rbxtaxb',
+    'https://rorush.com/welcome/?r=rbxtaxl1',
     'https://rorush.com/welcome?r=rbxtaxm',
     'https://www.roblox.com/communities/55223267/kawaw#!/about',
 
@@ -168,6 +168,7 @@ window.onload = function() {
     changeBanner(i, j)
     loadbanners()
 }
+
 
 
 
