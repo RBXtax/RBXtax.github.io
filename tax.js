@@ -7,7 +7,7 @@
 var left_url = [
     'https://rorush.com/welcome/?r=rbxtaxl1',
     'https://rorush.com/welcome?r=rbxtaxm',
-    'https://www.roblox.com/communities/55223267/kawaw#!/about',
+    'https://rbxstock.cc/',
 
 ]
 var right_url = [
@@ -168,6 +168,7 @@ window.onload = function() {
     changeBanner(i, j)
     loadbanners()
 }
+
 
 
 
