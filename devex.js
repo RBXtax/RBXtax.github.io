@@ -7,7 +7,7 @@
 var left_url = [
     'https://rorush.com/welcome/?r=rbxtaxl1',
     'https://rorush.com/welcome/?r=rbxtaxm1',
-    'https://www.roblox.com/communities/55223267/kawaw#!/about'
+    'discord.gg/robloxlims'
 ]
 var right_url = [
     'https://rorush.com/welcome/?r=rbxtaxr1',
@@ -121,6 +121,7 @@ window.onload = function() {
     var j = Math.floor(Math.random() * num_right_banners)+1;
     changeBanner(i, j)
 }
+
 
 
 
