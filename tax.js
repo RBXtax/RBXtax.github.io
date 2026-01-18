@@ -13,7 +13,7 @@ var left_url = [
 var right_url = [
     'https://rorush.com/welcome/?r=rbxtaxr1',
     'https://bloxdrop.com/',
-    'https://www.roblox.com/communities/55223267/kawaw#!/about',
+    'discord.gg/robloxlims',
 
 ]
 var num_left_banners = 3
@@ -168,6 +168,7 @@ window.onload = function() {
     changeBanner(i, j)
     loadbanners()
 }
+
 
 
 
