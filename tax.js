@@ -9,7 +9,7 @@ var left_url = [
 
 ]
 var right_url = [
-    'https://rorush.com/welcome/?r=rbxtaxr1',
+    'https://discord.gg/SxgKeT5wm8',
 
 ]
 var num_left_banners = 1
@@ -164,6 +164,7 @@ window.onload = function() {
     changeBanner(i, j)
     loadbanners()
 }
+
 
 
 
