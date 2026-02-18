@@ -5,18 +5,14 @@
 // CHANGE THIS ONLY
 
 var left_url = [
-    'https://rorush.com/welcome/?r=rbxtaxl1',
-    'https://rorush.com/welcome/?r=rbxtaxm1',
     'http://discord.gg/robloxlims'
 ]
 var right_url = [
-    'https://rorush.com/welcome/?r=rbxtaxr1',
-    'https://bloxdrop.com/',
     'https://rbxstock.cc/',
 
 ]
-var num_left_banners = 3
-var num_right_banners = 3
+var num_left_banners = 1
+var num_right_banners = 1
 
 // CHANGE THIS ONLY
 
@@ -121,6 +117,7 @@ window.onload = function() {
     var j = Math.floor(Math.random() * num_right_banners)+1;
     changeBanner(i, j)
 }
+
 
 
 
