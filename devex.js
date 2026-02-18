@@ -5,7 +5,7 @@
 // CHANGE THIS ONLY
 
 var left_url = [
-    'http://discord.gg/robloxlims'
+    'https://discord.gg/SxgKeT5wm8',
 ]
 var right_url = [
     'https://rbxstock.cc/',
@@ -117,6 +117,7 @@ window.onload = function() {
     var j = Math.floor(Math.random() * num_right_banners)+1;
     changeBanner(i, j)
 }
+
 
 
 
