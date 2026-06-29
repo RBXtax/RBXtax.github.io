@@ -5,7 +5,7 @@
 // CHANGE THIS ONLY
 
 var left_url = [
-    'https://rbxstock.cc/',
+    'discord.gg/xtsvaltus',
 
 ]
 var right_url = [
