@@ -8,7 +8,7 @@ var left_url = [
     'https://rorush.com/welcome/?r=rbxtaxm2',
 ]
 var right_url = [
-    'https://rbxstock.cc/',
+    'discord.gg/xtsvaltus',
 
 ]
 var num_left_banners = 1
