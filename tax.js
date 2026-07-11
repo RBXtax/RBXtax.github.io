@@ -5,7 +5,7 @@
 // CHANGE THIS ONLY
 
 var left_url = [
-    'discord.gg/xtsvaltus',
+    'https://discord.com/invite/xtsvaltus',
 
 ]
 var right_url = [
