@@ -6,11 +6,11 @@
 
 var left_url = [
     'https://rorush.com/welcome/?r=rbxtaxm2',
-    'https://discord.gg/y2k',
+    'https://discord.gg/rmsT2HVQkG',
 ]
 var right_url = [
     'https://discord.com/invite/xtsvaltus',
-    'https://discord.gg/y2k',
+    'https://discord.gg/rmsT2HVQkG',
 
 ]
 var num_left_banners = 2
