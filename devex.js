@@ -5,7 +5,7 @@
 // CHANGE THIS ONLY
 
 var left_url = [
-    'https://rorush.com/welcome/?r=rbxtaxm2',
+    'https://discord.gg/bA38kJaJHk',
     'https://discord.gg/rmsT2HVQkG',
 ]
 var right_url = [
