@@ -10,7 +10,7 @@ var left_url = [
 
 ]
 var right_url = [
-    'https://rorush.com/welcome/?r=rbxtax2',
+    'https://discord.gg/bA38kJaJHk',
     'https://discord.gg/rmsT2HVQkG',
 
 ]
