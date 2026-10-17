@@ -6,12 +6,12 @@
 
 var left_url = [
     'https://discord.com/invite/xtsvaltus',
-    'https://discord.gg/rmsT2HVQkG',
+    'https://discord.gg/rbxvault',
 
 ]
 var right_url = [
     'https://discord.gg/bA38kJaJHk',
-    'https://discord.gg/rmsT2HVQkG',
+    'https://discord.gg/rbxvault',
 
 ]
 var num_left_banners = 2
