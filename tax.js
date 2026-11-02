@@ -5,7 +5,7 @@
 // CHANGE THIS ONLY
 
 var left_url = [
-    'https://discord.com/invite/xtsvaltus',
+    'https://rbxdepot.com/',
     'https://discord.gg/AcEUNzS2x3',
 
 ]
